@@ -137,7 +137,7 @@ contract('AuctionContract', function (accounts) {
                 Use notEqual method of assert
                 Parameters for notEqual : (result, default address , message);
       ***********/
-      assert.notEqual(result[0], '0x0000000000000000000000000000000000000000', 'Item 0 Winner address is not the default address');
+      assert.notEqual(result[0], '0x0000000000000000000000000000000000000000', 'Item 0 winner address is not the default address');
       /*<CODE HERE>*/
       /**********
       TASK 16: call winners function from accounts[0] to get the winner of item id 1
@@ -150,7 +150,7 @@ contract('AuctionContract', function (accounts) {
                 Use notEqual method of assert
                 Parameters for notEqual : (result, default address , message);
       ***********/
-      assert.notEqual(result[1], '0x0000000000000000000000000000000000000000', 'Item 1 Winner address is not the default address');
+      assert.notEqual(result[1], '0x0000000000000000000000000000000000000000', 'Item 1 winner address is not the default address');
       /*<CODE HERE>*/
       /**********
       TASK 18: Call winners function from account 3 to get the winner of item id 2
@@ -163,7 +163,7 @@ contract('AuctionContract', function (accounts) {
                 Use notEqual method of assert
                 Parameters for notEqual : (result, default address , message);
       ***********/
-	assert.notEqual(result[2], '0x0000000000000000000000000000000000000000', 'Item 2 Winner address is not the default address');
+	assert.notEqual(result[2], '0x0000000000000000000000000000000000000000', 'Item 2 winner address is not the default address');
       /*<CODE HERE>*/
     })
   });
